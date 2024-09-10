@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E6F0F8;
+    margin: 0;
+    padding: 131px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 78%;
+    max-width: 1600px;
+    background-color: white;
+    border-radius: 21px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    overflow: hidden;
+}
+
+.calculator {
+    display: flex;
+    width: 100%;
+}
+
+.form-container {
+    padding: 40px;
+    width: 50%;
+    position: relative;
+}
+
+.new-container {
+    background-color:#133040;
+    color: white;
+    padding:83px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:15px 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+  
+}
+
+h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    color: #133040;
+    font-family: ;
+   
+}
+
+.clear-all{
+
+    position: absolute;
+    right: 40px;
+    top:50px;
+    color:#007BFF;
+    text-decoration: none;
+}
+
+
+.input-group {
+    margin-bottom: 20px;
+   color: #133040;
+   margin: 10px;
+
+}
+
+ .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+} 
+
+/* 
+.input-group input[type="text"],
+.input-group input[type="number"],
+       
+.input-group input[type="text"],
+.input-group input[type="number"] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+}  */
+
+.input-grouptype {
+    margin-bottom: 30px;
+      color:#133040;
+   
+}
+
+.input-grouptype label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+      color:#133040;
+      border-radius: 20px;
+}
+
+.input-grouptype div {
+    margin-bottom: 10px;
+      color:#133040;
+}
+
+.input-grouptype {
+    margin-right: 10px;
+    color:#133040;
+   
+}
+
+.calculate-btn {
+    background-color: #DCD933;
+    color:#5E6B1D;
+    gap:20px;
+    padding: 11px 49px;
+    border: none;
+    border-radius: 50px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.calculate-btn:hover {
+    background-color:#DCD933;
+}
+
+.results-container p {
+    margin: 10px 0;
+    font-size: 16px;
+    text-align: center;
+}

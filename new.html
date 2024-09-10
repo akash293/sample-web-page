@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <div class="header">
+        <h3>ARSHA</h3>
+    </div>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="navbar-nav d-flex">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Dropdown</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-primary" href="#">Get Started</a>
+
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                </li>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="para">
+
+                    <h1 class="zoom-in">Better Solutions For Your<br><br> Business</h1>
+
+                    <p>We are a team of talented designers making websites with Bootstrap</p>
+
+                    <p>This is the page to develop coding standards and also provides new data for development</p>
+                    <div class="btnew">
+                        <a href="#" class="btn btn-primary zoom-button">Get Started</a>
+                        <a href="#" class="btn btn-primary zoom-button">
+                            <i class="fas fa-play"></i> Watch Video
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item image"></div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+
+                <div class="font">
+                    <div class="card-head">
+                        <h4 class="font-effect-blue">ABOUT US</h4>
+                    </div>
+
+                    <p>Lorem ipsum dollar sit amet consectwtur adpising elit tempor incidinunt utlaborre et
+                        dollra ullambo laboris<br>
+                        <br>
+                        <i class="bi bi-check2-circle">ullamco laboris nisi ut aliquip ex ea commodo consequat</i><br>
+                        <i class="bi bi-check2-circle">Duis aute nisi ut irurue dolar in ea reprehenderit volupulate
+                            velit</i><br>
+                        <i class="bi bi-check2-circle">This new nisi ut aliquip ex ea commodo consequat</i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="img">
+        <img src="Documents/why-us.png" width="500" height="400">
+    </div>
+
+    <div class="card-new">
+        <p>ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+    </div>
+
+
+    <div class="card-heads">
+        <p>Form text should be explicitly associated with the form control it relates to using the aria-describedby
+            attribute. This
+            will ensure that assistive technologies—such as screen readers—will announce this form text when the user
+            focuses or
+            enters the control.</p>
+    </div>
+
+    <div class="imges">
+        <img src="Documents/skills.png" width="500" height="400">
+    </div>
+
+    <div class="text-card">
+
+        <h4 class="font-effect-blue">Voluptatem dignissimos provident quasi corporis voluptas</h4>
+
+
+        <div class="child">
+
+            <p>HTML</p>
+            <div class="containers">
+                <div class="skills html">90%</div>
+            </div>
+
+            <p>CSS</p>
+            <div class="containers">
+                <div class="skills css">80%</div>
+            </div>
+
+            <p>JavaScript</p>
+            <div class="containers">
+                <div class="skills js">65%</div>
+            </div>
+
+        </div>
+</body>
+
+</html>
+
+<script type="text/javascript">
+
+    document.querySelectorAll('.zoom-button').forEach(button => {
+        button.addEventListener('click', function () {
+            this.style.transform = 'scale(1)';
+            setTimeout(() => {
+                this.style.transform = 'scale(1.4)';
+            }, 200);
+        });
+    });
+</script>

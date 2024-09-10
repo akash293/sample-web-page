@@ -1,0 +1,334 @@
+body {
+    background-color: #37517E;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+
+h3{
+    font-size: 50px;
+}
+
+.nav-link {
+    color: #fff;
+    text-align: center;
+    font-size:20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #3a8bb2;
+    border-color: #3a8bb2;
+    color: #fff;
+}
+
+.btn-primary{
+    border: 1px solid #47b2e4;
+    padding: 10px 20px;
+    margin: 23px;
+    flex: 1;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    transition:background-color 0.3s ease, color 0.3s ease;
+}
+
+.header h3 {
+    display: flex;
+    padding: 10px 50px;
+    color: #fff;
+  
+}
+
+.image {
+    background-image: url("Documents/hero-img.png");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-left: -123px;
+    position: relative;
+    animation: mymove 5s infinite;
+    opacity: 0.5s;
+}
+
+
+.zoom-button {
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.zoom-button:active {
+    transform: scale(1.1);
+}
+
+ @keyframes zoomIn {
+            0% {
+                transform: scale(1.5);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+ }
+        .zoom-in {
+            animation: zoomIn 4s ease-in-out;
+        }
+
+
+@keyframes gfg{
+  0%   {top: 100px;
+}
+  50%  {top: 0px;
+}
+  100% {top: 100px;
+}
+}
+
+@keyframes mymove {
+  0%   {top: 100px;
+}
+  50%  {top: 50px;
+}
+  100% {top: 100px;
+}
+}
+
+@keyframes img {
+  0%   {top: 100px;
+}
+  50%  {top: 50px;
+}
+  100% {top: 100px;
+}
+
+}
+
+@keyframes img {
+  0%   {top: 100px;
+}
+  50%  {top: 50px;
+}
+  100% {top: 100px;
+}
+
+
+
+}@keyframes card-heads {
+   0%   {top: 100px;
+}
+  50%  {top: 50px;
+}
+  100% {top: 100px;
+}
+}
+
+.my-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    background: white;
+    font: inherit;
+    text-align: center;
+}
+
+.footer {
+    border: 1px solid black;
+    margin: 100px 80px 10px 80px;
+    background-color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 34px;
+    font-family: sans-serif;
+    text-align: left;
+    display: flex;
+
+}
+
+h2 {
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    margin: 300px;
+    padding: 10px 30px;
+    position: absolute;
+    left: 250px;
+    background-image: url(Documents/hero-img.png);
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    line-height: 20px;
+    transition: var(--transition);
+}
+
+.nav-item {
+    font-size: 17px;
+    padding: 10px 25px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    transition: 0.3s;
+    color: #fff;
+    background-color: #37517E;
+
+}
+.navbar-nav{
+    display: flex;
+    left:40px;
+}
+.nav-link {
+    color: #fff;
+    margin: 30px;
+    font-size: 20px;
+
+}
+
+.btn {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #47b2e4;
+    color: white;
+}
+
+.btnew {
+    margin-top: 20px;
+
+}
+
+
+
+.container {
+    color: #fff;
+}
+
+.para {
+    padding: 40px 20px;
+    display: flex;
+    line-height: 20px;
+    flex-direction: column;
+    font-size: 19px;
+    animation: mymove 5s infinite;
+
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  padding: 10px;
+}
+.grid-item {
+
+  padding: 20px;
+  font-size: 30px;
+  padding-right: 20px;
+  
+}
+
+.card-header{
+
+    margin:150px;
+    position: relative;
+    left: 20px;
+    color: #fff;
+    
+}
+
+.p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+.font{
+    color:black;
+    background-color:white;
+    width: 84rem;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+
+.card-head{
+
+    text-align: center;
+    color:black;
+    font-size: 30px;
+    font-family: "Audiowide", sans-serif;
+}
+
+h4{
+
+    color:#37517E
+}
+
+.img{
+    background-size: cover;
+    margin-left: 0px;
+    position: relative;
+    opacity: 0.5s;
+
+}
+
+.imges{
+    background-color: #fff;
+    
+}
+
+
+.card-heads{
+
+  color:black;
+  margin: 150px;
+  background-color: #fff;
+  width: 30rem;
+  border-radius: 20px;
+  padding: 100px 50px;
+  animation: card-heads 5s infinite;
+  display: flex;
+
+}
+
+.card-new{
+
+  color:black;
+  background-color: #fff;
+  margin: 300px;
+  width: 30rem;
+  border-radius: 20px;
+  padding: 100px 50px;
+  margin-top:-225px;
+  margin-right: 150px;
+  position: relative;
+  right: -537px;
+   animation: mymove 5s infinite;
+  
+
+
+}
+
+.text-card{
+
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    margin-top: -358px;
+    text-align: center;
+    position: relative;
+    right: 300px;
+    font-size: 17;
+    color: #47b2e4;
+    margin-right: -1054px;
+}
+
+* {
+    box-sizing: border-box;
+}
+

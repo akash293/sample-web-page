@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="calculator">
+
+            <div class="form-container">
+                      <h2>Mortgage Calculator</h2> 
+                     <a href="#" class="clear-all">Clear All</a>
+                <form>
+                    <div class="input-group">
+                        <label for="amount">Mortgage Amount</label>
+                        <input type="text" id="amount" placeholder="£">
+                    </div>
+                    <div class="input-group">
+                        <label for="term">Mortgage Term</label>
+                        <input type="text" id="term" placeholder="">
+                    </div>
+
+                    <div class="input-grouptype">
+
+                        <label>Mortgage Type</label>
+                        <div class="input-group">
+                            <input type="radio" id="repayment" name="" value="repayment">
+                            <label for="repayment">Repayment</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="radio" id="interest-only" name="" value="interest-only">
+                            <label for="interest-only">Interest Only</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="calculate-btn">Calculate Repayments</button>
+                    </form>
+            </div>
+            <div class="new-container">
+
+                   <img src="images/calculator.png" alt="">
+                <p>Results shown here</p>
+                <p>Complete the form and click "calculate repayments" to see what your monthly repayments would be.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
